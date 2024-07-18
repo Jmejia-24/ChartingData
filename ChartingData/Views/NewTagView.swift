@@ -41,9 +41,6 @@ struct NewTagView: View {
                 .border(viewModel.noIconSelected ? .red : .clear)
 
                 Button("Add Tag") {
-                    viewModel.noTagName = false
-                    viewModel.noIconSelected = false
-
                     viewModel.noTagName = viewModel.newTagName.isEmpty
                     viewModel.noIconSelected = viewModel.selectedIcon.isEmpty
 
