@@ -5,7 +5,6 @@
 //  Created by Byron on 13/7/24.
 //
 
-import SwiftData
 import SwiftUI
 
 struct ChartEditView: View {

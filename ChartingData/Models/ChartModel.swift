@@ -32,7 +32,7 @@ final class ChartModel {
 
 extension ChartModel {
     var viewSortedPlots: [PlotModel] {
-        plots.sorted { $0.plotOrder < $1.plotOrder }
+        plots.sorted { $0.createdAt < $1.createdAt }
     }
 
     var viewSortedTags: [TagModel] {

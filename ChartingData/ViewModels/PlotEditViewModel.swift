@@ -28,7 +28,7 @@ final class PlotEditViewModel {
 
     @MainActor
     func addPlot() {
-        let plot = PlotModel(plotOrder: chart.plots.count + 1)
+        let plot = PlotModel()
         
         chart.plots.append(plot)
     }

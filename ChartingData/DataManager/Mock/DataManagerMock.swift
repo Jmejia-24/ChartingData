@@ -49,7 +49,6 @@ private extension DataManagerMock {
 
             for plotIndex in 0..<10 {
                 let plot = PlotModel(
-                    plotOrder: plotIndex,
                     label: "Label \(plotIndex)",
                     value: Double.random(in: 1...100)
                 )
