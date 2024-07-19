@@ -130,7 +130,6 @@ struct ChartView: View {
                 Image(systemName: "list.bullet.circle.fill")
             }
         }
-        .toolbarBackground(.blue, for: .navigationBar)
         .onAppear {
             viewModel.refreshChart.toggle()
         }
